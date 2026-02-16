@@ -3,20 +3,7 @@
 This repository contains the required materials for the **EDA333**
 laboratory sessions.\
 It includes the Ripes RISC-V simulator, pre-built RISC-V toolchains, and
-all lab assignments.
-
-------------------------------------------------------------------------
-
-## Repository Overview
-
-This Git repository is organized to provide:
-
--   Laboratory assignments
--   Required simulator setup
--   A compatible pre-built RISC-V GCC toolchain
--   Documentation for setup and usage
-
-The `main` branch contains the latest stable version of all materials.
+all the code required for the laboratory assignments.
 
 ------------------------------------------------------------------------
 
@@ -34,10 +21,6 @@ The `main` branch contains the latest stable version of all materials.
 
 Contains the **Ripes RISC-V simulator** used during the course.
 
--   Includes configuration required for laboratory work.
--   The correct pre-built compiler for Ripes is included in this
-    repository.
-
 ------------------------------------------------------------------------
 
 ### lab1/
@@ -48,8 +31,7 @@ Contains all source files and materials for **Lab 1**.
 
 ### lab2/
 
-Contains all source files and materials for **Lab 2** (reworked
-version).
+Contains all source files and materials for **Lab 2**.
 
 ------------------------------------------------------------------------
 
@@ -86,25 +68,9 @@ cd <repository-folder>
 
 ------------------------------------------------------------------------
 
-## Updating the Repository
-
-``` bash
-git pull origin main
-```
-
-------------------------------------------------------------------------
-
-## Notes
-
--   The included toolchain is pre-configured for compatibility with
-    Ripes.
--   Always use the provided compiler version to avoid compatibility
-    issues.
--   Do not modify the toolchain directory unless explicitly instructed.
-
-------------------------------------------------------------------------
-
 ## Course Information
 
 Course: EDA333\
 Content: RISC-V programming and architecture laboratories
+TAs: Alessio Cicero, Luigi Altamura
+Course Examiner: Pedro Trancoso
