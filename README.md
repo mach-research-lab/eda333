@@ -13,27 +13,19 @@ all the code required for the laboratory assignments.
 
 Contains the **Ripes RISC-V simulator** used during the course.
 
-------------------------------------------------------------------------
-
 ### lab1/
 
 Contains all source files and materials for **Lab 1**.
-
-------------------------------------------------------------------------
 
 ### lab2/
 
 Contains all source files and materials for **Lab 2**.
 
-------------------------------------------------------------------------
-
 ### lab3/
 
 Contains all source files and materials for **Lab 3**.
 
-------------------------------------------------------------------------
-
-toolchains
+### toolchains/
 
 Pre-built **RISC-V GCC toolchain** for Windows (64-bit), Ubuntu, CentOS, and iOS.
 
@@ -57,6 +49,6 @@ cd <repository-folder>
 ## Course Information
 
 Course: EDA333\
-Content: RISC-V programming and architecture laboratories
-TAs: Alessio Cicero, Luigi Altamura
+Content: RISC-V programming and architecture laboratories\
+TAs: Alessio Cicero, Luigi Altamura\
 Course Examiner: Pedro Trancoso
