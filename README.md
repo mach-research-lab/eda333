@@ -9,14 +9,6 @@ all the code required for the laboratory assignments.
 
 ## Repository Structure
 
-    .
-    ├── Ripes/
-    ├── lab1/
-    ├── lab2/
-    ├── lab3/
-    ├── riscv64-gcc-8.3.0-2020.04.1-x86_64-w64-mingw32/
-    └── README.md
-
 ### Ripes/
 
 Contains the **Ripes RISC-V simulator** used during the course.
