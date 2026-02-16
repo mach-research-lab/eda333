@@ -41,21 +41,15 @@ Contains all source files and materials for **Lab 3**.
 
 ------------------------------------------------------------------------
 
-### riscv64-gcc-8.3.0-2020.04.1-x86_64-w64-mingw32/
+toolchains
 
-Pre-built **RISC-V GCC toolchain** for Windows (64-bit).
+Pre-built **RISC-V GCC toolchain** for Windows (64-bit), Ubuntu, CentOS, and iOS.
 
 -   **Version:** 8.3.0\
 -   **Target architecture:** riscv64\
--   **Host system:** x86_64-w64-mingw32\
 -   Intended for compatibility with Ripes.
 
-------------------------------------------------------------------------
-
-## Requirements
-
--   Windows (required for the included toolchain)
--   Ripes simulator
+Imported from https://github.com/sifive/freedom-tools
 
 ------------------------------------------------------------------------
 
