@@ -25,6 +25,10 @@ Contains all source files and materials for **Lab 2**.
 
 Contains all source files and materials for **Lab 3**.
 
+### project/
+
+Contains all source files and materials for **Lab 3**.
+
 ### toolchains/
 
 Pre-built **RISC-V GCC toolchain** for Windows (64-bit), Ubuntu, CentOS, and iOS.
