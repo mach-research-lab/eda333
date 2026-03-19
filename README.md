@@ -54,5 +54,5 @@ cd <repository-folder>
 
 Course: EDA333\
 Content: RISC-V programming and architecture laboratories\
-TAs: Alessio Cicero, Luigi Altamura\
+TAs: Alessio Cicero (alessio.cicero@chalmers.se), Luigi Altamura (altamura@chalmers.se)\
 Course Examiner: Pedro Trancoso
