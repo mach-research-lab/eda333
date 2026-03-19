@@ -52,6 +52,7 @@ Open **Terminal** and run:
 
 chmod +x ./create_launcher_mac.sh
 sh ./create_launcher_mac.sh
+chmod +x Ripes.command
 ```
 This script will create the file Ripes.command in the same folder
 ---
@@ -92,5 +93,5 @@ Ripes.command
 * Always run using:
 
   ```
-  Ripes Launcher.command
+  Ripes.command
   ```
