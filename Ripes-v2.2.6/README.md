@@ -11,7 +11,7 @@ eda333/Ripes-v2.2.6/
 
 You should see:
 
-* `Ripes-v2.2.6-77-g4981e31-mac-universal2.app`
+* `Ripes-v2.2.6-77-g4981e31-mac-universal2.zip`
 
 ---
 
@@ -19,13 +19,16 @@ You should see:
 
 macOS may block the application the first time.
 
-1. Right-click the `.app` file:
+1. Unzip   
+`Ripes-v2.2.6-77-g4981e31-mac-universal2.zip`
+
+2. Right-click the `.app` file:
 
    ```
    Ripes-v2.2.6-77-g4981e31-mac-universal2.app
    ```
-2. Click **Open**
-3. If blocked:
+3. Click **Open**
+4. If blocked:
 
    * Go to **System Settings → Privacy & Security**
    * Click **Open Anyway**
@@ -73,8 +76,17 @@ If macOS warns you:
 ---
 
 ## 🧩 Setup C Compiler (IMPORTANT)
-
 ⚠️ Do this while Ripes is open.
+
+In 
+```bash
+eda333/toolchains
+```
+folder you will find 4 different folders for different operative systems. Unzip the one for MacOS
+```bash
+riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-apple-darwin
+```
+
 
 1. Open a **Terminal** window.
 2. Navigate to the main repo folder:
