@@ -17,6 +17,8 @@ You should see:
 
 ## ⚠️ First-time macOS security step
 
+**SPOILER ALERT - If you open the app normally it will crash. No worries we are solving the issue in this guide**
+
 macOS may block the application the first time.
 
 1. Unzip   
@@ -86,7 +88,7 @@ folder you will find 4 different folders for different operative systems. Unzip 
 ```bash
 riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-apple-darwin
 ```
-
+**If you have problems unzipping the file, delete this one, download the compressed file from the GitHub website, place it in this folder, and redo the procedure.**
 
 1. Open a **Terminal** window.
 2. Navigate to the main repo folder:
