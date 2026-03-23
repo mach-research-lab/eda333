@@ -179,12 +179,12 @@ toolchains/riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-apple-darwin/bin/riscv
 ## Windows Guide
 
 ### 1. Clone Repository
-1. Download or clone repository: ```git clone https://github.com/mach-research-lab/eda333.git ```
-2. Unzip the repository
-3. Unzip Ripes windows folder ```eda333/Ripes-v2.2.6-77-g4981e31-win-x86_64.zip```
+1. Download or clone repository: ```git clone https://github.com/mach-research-lab/eda333.git ``` (Note: cloning might create problems with windows complaining about empty files. You can avoid this by downloading instead)
+3. Unzip the repository
+4. Unzip Ripes windows folder ```eda333\Ripes-v2.2.6-77-g4981e31-win-x86_64.zip```
 
 ### 2. Extract C Compiler Toolchain
-1. Unzip the toolchain: ```eda333/toolchains/eda333/toolchains/riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-w64-mingw32.zip```
+1. Unzip the toolchain: ```eda333\toolchains\eda333\toolchains\riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-w64-mingw32.zip```
 
 ### 3. Open Ripes
 1. Open Windows Terminal by right-clicking in the folder and selecting "Open in terminal", or select the folder bar and type "cmd".
@@ -196,7 +196,7 @@ toolchains/riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-apple-darwin/bin/riscv
 
 2. Set the compiler path to:
 ```
-eda333/toolchains/riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-w64-mingw32.exe
+eda333/toolchains/riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-w64-mingw32/riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-w64-mingw32/bin/riscv64-unknown-elf-gcc.exe
 ```
 Wait until the indicator turns **green**.
 
