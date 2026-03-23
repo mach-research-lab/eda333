@@ -175,3 +175,10 @@ toolchains/riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-apple-darwin/bin/riscv
   Ripes.command
   ```
 * Configure the compiler once in Preferences
+
+
+## Windows Guide
+1. Download Ripes-v2.2.6-77-g4981e31-win-x86_64.zip
+2. Extract the folder
+3. Enter in the folder
+4. Run it using the terminal, as starting it by double-clicking might prompt security issues. To open the terminal right-click in the folder, and select "Open in Terminal", or select the folder bar and type "cmd". Execute the program by typing "Ripes.exe".
