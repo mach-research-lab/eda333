@@ -1,4 +1,4 @@
-#define N 102
+#define N 12
 #define M 10
 
 main(int argc, char *argv[])
