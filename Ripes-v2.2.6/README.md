@@ -1,6 +1,36 @@
-# Running Ripes on macOS (EDA333)
+# Ripes Setup Guide
 
-## Setup
+This guide covers how to launch the Ripes simulator and extract the RISC-V GCC toolchain on Linux, macOS, and Windows.
+
+---
+
+## Linux Guide (Ubuntu 24.04.4 LTS)
+
+### 1. Clone Repository
+1. Clone repository: ```git clone https://github.com/mach-research-lab/eda333.git ```
+
+### 2. Extract C Compiler Toolchain
+1. Extract toolchain: ```tar -xzvf eda333/toolchains/riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-linux-ubuntu14.tar.gz```
+
+### 3. Open Ripes
+1. Make file executable: ```chmod +x eda333/toolchains/Ripes-v2.2.6-77-g4981e31-linux-x86_64.AppImage```
+2. Open Ripes: ``` eda333/toolchains/Ripes-v2.2.6-77-g4981e31-linux-x86_64.AppImage```
+
+### 4. Setup C Compiler in Ripes
+
+1. In Ripes, go to: ```Edit → Settings → Compiler```
+
+2. Set the compiler path to:
+```
+eda333/toolchains/riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-linux-ubuntu14/bin/riscv64-unknown-elf-gcc
+```
+Wait until the indicator turns **green**.
+
+---
+
+## macOS Guide (Tahoe)
+
+### Setup
 
 1. Download or clone this repository.
 2. Navigate to:
@@ -15,7 +45,7 @@ You should see:
 
 ---
 
-## ⚠️ First-time macOS security step
+### ⚠️ First-time macOS security step
 
 **SPOILER ALERT - If you open the app normally it will crash. No worries we are solving the issue in this guide**
 
@@ -39,7 +69,7 @@ You only need to do this once.
 
 ---
 
-## Launching Ripes (Important)
+### Launching Ripes (Important)
 
 Do **NOT** open the `.app` directly (it may crash).
 
@@ -47,7 +77,7 @@ Instead, use the launcher script.
 
 ---
 
-## 🔧 Create the launcher
+### 🔧 Create the launcher
 
 Open **Terminal** and run:
 
@@ -63,7 +93,7 @@ This script will create the file `Ripes.command` in the same folder.
 
 ---
 
-## ▶️ Run Ripes
+### ▶️ Run Ripes
 
 Now, double-click:
 
@@ -77,7 +107,7 @@ If macOS warns you:
 
 ---
 
-## 🧩 Setup C Compiler (IMPORTANT)
+### 🧩 Setup C Compiler (IMPORTANT)
 ⚠️ Do this while Ripes is open.
 
 In 
@@ -108,7 +138,7 @@ This removes macOS security restrictions from the compiler.
 
 ---
 
-## ⚙️ Configure compiler inside Ripes
+### ⚙️ Configure compiler inside Ripes
 
 1. In Ripes, go to:
 
@@ -128,7 +158,7 @@ toolchains/riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-apple-darwin/bin/riscv
 
 ---
 
-## 🧠 Notes
+### 🧠 Notes
 
 * The launcher is required due to a macOS + Qt compatibility issue.
 * It forces a safe rendering mode (`Fusion`) to prevent crashes.
@@ -136,7 +166,7 @@ toolchains/riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-apple-darwin/bin/riscv
 
 ---
 
-## ✅ Summary
+### ✅ Summary
 
 * Open the `.app` once to allow it
 * Run Ripes using:
