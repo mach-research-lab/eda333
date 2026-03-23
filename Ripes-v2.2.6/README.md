@@ -176,9 +176,27 @@ toolchains/riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-apple-darwin/bin/riscv
   ```
 * Configure the compiler once in Preferences
 
-
 ## Windows Guide
-1. Download Ripes-v2.2.6-77-g4981e31-win-x86_64.zip
-2. Extract the folder
-3. Enter in the folder
-4. Run it using the terminal, as starting it by double-clicking might prompt security issues. To open the terminal right-click in the folder, and select "Open in Terminal", or select the folder bar and type "cmd". Execute the program by typing "Ripes.exe".
+
+### 1. Clone Repository
+1. Download or clone repository: ```git clone https://github.com/mach-research-lab/eda333.git ```
+2. Unzip the repository
+3. Unzip Ripes windows folder ```eda333/Ripes-v2.2.6-77-g4981e31-win-x86_64.zip```
+
+### 2. Extract C Compiler Toolchain
+1. Unzip the toolchain: ```eda333/toolchains/eda333/toolchains/riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-w64-mingw32.zip```
+
+### 3. Open Ripes
+1. Open Windows Terminal by right-clicking in the folder and selecting "Open in terminal", or select the folder bar and type "cmd".
+2. Execute Ripes by typing: ```Ripes.exe```
+
+### 4. Setup C Compiler in Ripes
+
+1. In Ripes, go to: ```Edit → Settings → Compiler```
+
+2. Set the compiler path to:
+```
+eda333/toolchains/riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-w64-mingw32.exe
+```
+Wait until the indicator turns **green**.
+
