@@ -2,6 +2,12 @@
 
 This guide covers how to launch the Ripes simulator and extract the RISC-V GCC toolchain on Linux, macOS, and Windows.
 
+## Table of Contents
+
+- [Linux Guide (Ubuntu 24.04.4 LTS)](#linux-guide-ubuntu-24044-lts)
+- [macOS Guide (Tahoe)](#macos-guide-tahoe)
+- [Windows Guide (Windows 11)](#windows-guide)
+
 ---
 
 ## Linux Guide (Ubuntu 24.04.4 LTS)
