@@ -45,7 +45,7 @@ You should see:
 
 ---
 
-### ⚠️ First-time macOS security step
+### First-time macOS security step
 
 **SPOILER ALERT - If you open the app normally it will crash. No worries we are solving the issue in this guide**
 
@@ -77,7 +77,7 @@ Instead, use the launcher script.
 
 ---
 
-### 🔧 Create the launcher
+### Create the launcher
 
 Open **Terminal** and run:
 
@@ -93,7 +93,7 @@ This script will create the file `Ripes.command` in the same folder.
 
 ---
 
-### ▶️ Run Ripes
+### Run Ripes
 
 Now, double-click:
 
@@ -107,8 +107,8 @@ If macOS warns you:
 
 ---
 
-### 🧩 Setup C Compiler (IMPORTANT)
-⚠️ Do this while Ripes is open.
+### Setup C Compiler (IMPORTANT)
+Do this while Ripes is open.
 
 In 
 ```bash
@@ -138,7 +138,7 @@ This removes macOS security restrictions from the compiler.
 
 ---
 
-### ⚙️ Configure compiler inside Ripes
+### Configure compiler inside Ripes
 
 1. In Ripes, go to:
 
@@ -154,11 +154,11 @@ toolchains/riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-apple-darwin/bin/riscv
 
 3. Wait until the indicator turns **green**.
 
-✅ The C compiler is now correctly configured.
+The C compiler is now correctly configured.
 
 ---
 
-### 🧠 Notes
+### Notes
 
 * The launcher is required due to a macOS + Qt compatibility issue.
 * It forces a safe rendering mode (`Fusion`) to prevent crashes.
@@ -166,7 +166,7 @@ toolchains/riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-apple-darwin/bin/riscv
 
 ---
 
-### ✅ Summary
+### Summary
 
 * Open the `.app` once to allow it
 * Run Ripes using:
@@ -175,6 +175,14 @@ toolchains/riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-apple-darwin/bin/riscv
   Ripes.command
   ```
 * Configure the compiler once in Preferences
+
+### Bugfixing
+Devices with M1 chip might have issues with the app continuosly crashing. To fix:
+* In the terminal to install Rosetta:
+  ``` softwareupdate --install-rosetta --agree-to-license ```
+* Change the last line of Ripes.command script from:
+  ```"  exec "$BIN"  "``` to ```"  exec arch -x86_64 "$BIN"  " ```
+* Run Ripes.command
 
 ## Windows Guide
 
