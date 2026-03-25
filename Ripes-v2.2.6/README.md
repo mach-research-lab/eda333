@@ -193,7 +193,7 @@ Devices with M1 chip might have issues with the app continuosly crashing. To fix
 ## Windows Guide
 
 ### 1. Clone Repository
-1. Download or clone repository: ```git clone https://github.com/mach-research-lab/eda333.git ``` (Note: cloning might create problems with Windows complaining about empty files. You can avoid this by downloading instead the zipped folder from the toolchains folder, or clicking <a href="https://github.com/mach-research-lab/eda333/raw/refs/heads/main/toolchains/riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-w64-mingw32.zip?download=">here</a>
+1. Download or clone repository: ```git clone https://github.com/mach-research-lab/eda333.git ``` (Note: cloning might create problems with Windows complaining about empty files. You can avoid this by downloading instead the zipped folder from the toolchains folder, or clicking <a href="https://github.com/mach-research-lab/eda333/raw/refs/heads/main/toolchains/riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-w64-mingw32.zip?download=">here</a>)
 3. Unzip the repository
 4. Unzip Ripes windows folder ```eda333\Ripes-v2.2.6-77-g4981e31-win-x86_64.zip```
 
