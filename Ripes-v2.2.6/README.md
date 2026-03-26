@@ -7,6 +7,7 @@ This guide covers how to launch the Ripes simulator and extract the RISC-V GCC t
 - [Linux Guide (Ubuntu 24.04.4 LTS)](#linux-guide-ubuntu-24044-lts)
 - [macOS Guide (Tahoe)](#macos-guide-tahoe)
 - [Windows Guide (Windows 11)](#windows-guide)
+- [If nothing else works - Ripes online](#ripes-online)
 
 ---
 
@@ -214,3 +215,7 @@ eda333/toolchains/riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-w64-mingw32/ris
 ```
 Wait until the indicator turns **green**.
 
+## Ripes Online 
+
+1. You can access the tool at https://ripes.me/
+2. To compile C code for RISCV32I ISA you can use either the toolchain mentioned before, run on your command prompt/terminal, or use also an online tool for it https://godbolt.org/ (be sure to select ```RISC-V (32-bits) gcc```)
