@@ -184,12 +184,40 @@ The C compiler is now correctly configured.
 * Configure the compiler once in Preferences
 
 ### Bugfixing
-Devices with M1 chip might have issues with the app continuosly crashing. To fix:
+#### App continuously crashing
+Devices with M1 chip might have issues with the app continuously crashing. To fix:
 * In the terminal to install Rosetta:
   ``` softwareupdate --install-rosetta --agree-to-license ```
 * Change the last line of Ripes.command script from:
   ```"  exec "$BIN"  "``` to ```"  exec arch -x86_64 "$BIN"  " ```
 * Run Ripes.command
+  
+#### Crash when selecting the processor
+* Have installed: homebrew, cmake and make
+
+* Install dependencies ```brew install cmake qt@6```
+
+* Clone the repo 
+```git clone --recursive https://github.com/mortbopet/Ripes.git```
+```cd Ripes```
+(--recursive is important to get all the submodules)
+
+* Build the app
+```mkdir build && cd build```
+```cmake .. -DCMAKE_PREFIX_PATH=$(brew --prefix qt@6) -DCMAKE_BUILD_TYPE=Release```
+```make -j$(sysctl -n hw.logicalcpu)```
+
+* Ripes.app should be in the build folder; double-click it to open it.
+
+* If it complains about security, reopen it a couple of times and click "allow anyway" in the System Settings -> Privacy and Security -> Allow anyway
+
+* Allow the following:
+  * cc1
+  * as
+  * collect2
+  * id
+  * liblto_plugin.so 
+
 
 ## Windows Guide
 
