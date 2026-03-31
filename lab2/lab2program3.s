@@ -7,8 +7,8 @@
 
 loop: 
     addi t1, t1, -1   # t1 ← t1 - 1
-    addi t2, t2, 1    # t2 ← t2 + 1
     addi t6, t6, 2    # t6 ← t6 + 2
+    addi t2, t2, 1    # t2 ← t2 + 1
     bne  zero, t1, loop  # If t1 ≠ 0 then goto loop
     add  t3, t3, t2   # t3 ← t3 + t2
     add  t4, t4, t2   # t4 ← t4 + t2
