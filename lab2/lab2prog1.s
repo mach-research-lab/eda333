@@ -1,4 +1,4 @@
-addi t1,  zero, 1    # t1 ← 1
-add  t2,  t1, t1   # t2 ← t1 + t1
-add  t3, t1, t1   # t3 ← t1 + t1
-add  t4, t1, t1   # t4 ← t1 + t1
+addi t0,  zero, 1    # t0 ← 1
+add  t1,  t0, t0   # t1 ← t0 + t0
+add  t2, t0, t0   # t2 ← t0 + t0
+add  t3, t0, t0   # t3 ← t0 + t0
