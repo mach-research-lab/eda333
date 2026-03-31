@@ -11,8 +11,8 @@ _start:
     addi t0, t0, 8
     nop
 load_loop:
-    lw    t3, 0(s0)               # load buf[i]
-    add   t2, t2, t3              # Sum in t2 all the elements of the array
+    lw    t1, 0(s0)               # load buf[i]
+    add   t2, t2, t1              # Sum in t2 all the elements of the array
     addi  s0, s0, 4               # advance pointer
     addi  t0, t0, -1
     nop
